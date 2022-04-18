@@ -232,7 +232,7 @@ while fim >= 1:
         if len(posição) == 0:
             contadorDeErros += 1
             letrasInválidas += tentativa
-            print(f'letra {tentativa} não corresponde.')
+            print(f'letra {tentativa} não corresponde. Pressione enter para continuar.')
             y = input()
         else:
             contadorDeAcertos += 1
