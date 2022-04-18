@@ -215,7 +215,7 @@ while fim >= 1:
             aindaTem +=1
     if aindaTem == 0:
         fim = 0
-        print (F'''\n\nPARABÉNS!!! VOCÊ ACERTOU\n\n''')
+        print (f'''\n\nPARABÉNS!!! VOCÊ ACERTOU\n\n''')
 
     #if que limita aparecer o resto do programa caso tenha terminado o jogo
     if contadorDeErros < 6 and aindaTem != 0:
